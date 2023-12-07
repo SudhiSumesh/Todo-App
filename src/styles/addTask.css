@@ -1,0 +1,91 @@
+.add-task-container {
+  width: 100%;
+
+  padding: 3rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.448);
+  flex-direction: column;
+}
+.add-task-container .title {
+  display: flex;
+  align-items: center;
+  gap: 455px;
+  margin-bottom: 0.5rem;
+}
+.add-task-container .title div {
+  color: rgba(85, 0, 255, 0.573);
+  font-size: 46px;
+  filter: drop-shadow(7px 2px 4px rgb(33, 19, 232));
+}
+.add-task-container .title i {
+  color: rgba(85, 0, 255, 0.573);
+  filter: drop-shadow(4px 2px 10px rgb(33, 19, 232));
+  margin-top: 0.4rem;
+}
+.add-task-container form {
+  background-color: rgba(85, 0, 255, 0.267);
+  padding: 1rem;
+  padding-inline: 1.7rem;
+  margin-block: 1rem;
+  border-radius: 1rem;
+}
+.add-task-container .input-container {
+  padding: 1rem;
+}
+.add-task-container .input-container input {
+  background-color: transparent;
+  border: 1px solid rgba(62, 181, 205, 0.545);
+  padding-inline-end: 19.5rem;
+  padding-inline-start: 1rem;
+  padding-block: 1.2rem;
+  border-radius: 0.5rem;
+  color: rgba(47, 241, 241, 0.841);
+  transition: 0.2s ease-in-out;
+  font-size: 16px;
+  outline: none;
+}
+.add-task-container .input-container input:hover,
+.add-task-container .input-container textarea:hover {
+  border: 1px solid rgba(62, 181, 205, 0.945);
+}
+.error-div {
+  color: rgba(216, 41, 41, 0.848);
+}
+.add-task-container .input-container textarea {
+  background-color: transparent;
+  border: 1px solid rgba(62, 181, 205, 0.545);
+  padding-inline-end: 19.5rem;
+  padding-inline-start: 1rem;
+  padding-block: 0.7rem;
+  border-radius: 0.5rem;
+  color: rgba(0, 255, 255, 0.841);
+  resize: none;
+  font-size: 16px;
+  transition: 0.2s ease-in-out;
+  outline: none;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgba(0, 255, 255, 0.441);
+}
+.add-task-container button {
+  padding-inline: 14.5rem;
+  margin-left: 1rem;
+  margin-block: 1rem;
+  background-color: transparent;
+  border: 1px solid rgba(62, 181, 205, 0.545);
+  padding-block: 1rem;
+  border-radius: 5rem;
+  color: rgba(0, 255, 255, 0.441);
+  cursor: pointer;
+
+  transition: 0.2s ease-in-out;
+}
+.add-task-container button:hover,
+.add-task-container button:active,
+.add-task-container button:focus {
+  color: rgba(0, 255, 255, 0.841);
+  border-color: rgba(62, 181, 205, 0.945);
+}

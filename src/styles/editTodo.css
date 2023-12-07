@@ -1,0 +1,75 @@
+.update-container {
+  display: flex;
+  justify-content: center;
+}
+.update-container form {
+  background-color: rgba(85, 0, 255, 0.267);
+  padding: 1rem;
+  padding-inline: 1.7rem;
+  margin-block: 1rem;
+  border-radius: 1rem;
+  text-align: end;
+}
+.update-container form h3 {
+  text-align: center;
+  color: rgba(47, 241, 241, 0.641);
+}
+.update-container .input-container {
+  padding: 0.5rem;
+}
+
+.update-container .input-container input {
+  background-color: transparent;
+  border: 1px solid rgba(62, 181, 205, 0.545);
+  padding-inline-end: 15rem;
+  padding-inline-start: 1rem;
+  padding-block: 1rem;
+  border-radius: 0.5rem;
+  color: rgba(47, 241, 241, 0.841);
+  transition: 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+.update-container .input-container input:hover,
+.update-container .input-container textarea:hover {
+  border: 1px solid rgba(62, 181, 205, 0.945);
+}
+
+.update-container .input-container textarea {
+  background-color: transparent;
+  border: 1px solid rgba(62, 181, 205, 0.545);
+  padding-inline-end: 15rem;
+  padding-inline-start: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 0.5rem;
+  color: rgba(0, 255, 255, 0.841);
+  resize: none;
+  font-size: 16px;
+  transition: 0.2s ease-in-out;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgba(0, 255, 255, 0.441);
+}
+
+.update-container button {
+  padding-inline: 1rem;
+  margin-right: 0.7rem;
+  margin-left: 0.5rem;
+  margin-block: 0.1rem;
+  background-color: transparent;
+  border: 1px solid rgba(62, 181, 205, 0.545);
+  padding-block: 0.8rem;
+  border-radius: 0.4rem;
+  color: rgba(0, 255, 255, 0.441);
+  cursor: pointer;
+
+  transition: 0.2s ease-in-out;
+}
+
+.update-container button:hover,
+.update-container button:active,
+.update-container button:focus {
+  color: rgba(0, 255, 255, 0.841);
+  border-color: rgba(62, 181, 205, 0.945);
+}

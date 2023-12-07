@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.907);
+  color: white;
+  font-family: "Gwendolyn", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+ .title{
+  display: flex;
+  align-items: center;
+  gap: 455px;
+  margin-bottom: .5rem;
+}
+ .title div{
+   color: rgba(85, 0, 255, 0.573) ;
+   font-size: 46px;
+   filter: drop-shadow( 7px  2px 4px rgb(33, 19, 232));
+}

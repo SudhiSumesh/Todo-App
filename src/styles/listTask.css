@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+
+.container .task-container {
+  background-color: rgba(85, 0, 255, 0.267);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 3rem;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+}
+
+.container .task-container .letter {
+  background-color: rgba(79, 13, 233, 0.97);
+  border-radius: 6rem;
+  padding: 1rem;
+  padding-inline: 1.3rem;
+  font-size: 19px;
+  font-weight: bold;
+  color: rgba(137, 122, 250, 0.956);
+}
+.container .task-container .content {
+  padding: 0.4rem;
+}
+.container .task-container .content .title {
+  color: rgba(79, 13, 233, 0.97);
+  font-size: 20px;
+  filter: drop-shadow(2px 2px 1px rgb(10, 2, 69));
+  padding-bottom: 0.1rem;
+}
+.container .task-container .content .description {
+  color: rgba(231, 230, 233, 0.603);
+  width: 420px;
+}
+.container .task-container .edit-delete {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.container .task-container .edit-delete button {
+  background-color: transparent;
+  border: none;
+  color: rgba(79, 13, 233, 0.756);
+}
+.container .task-container .edit-delete .delete {
+  margin-top: 1rem;
+}
+.container .task-container .edit-delete button:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
