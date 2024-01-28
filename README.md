@@ -2,7 +2,7 @@
 
 This is a stylish and user-friendly todo app created using React (Vite). The app allows you to add, delete, and edit todos. 
 
-Live Demo : https://sumeshsudhi.github.io/TodoApp/
+Live Demo : 
 
 ![todo](https://github.com/SumeshSudhi/TodoApp/assets/155970384/5a5b91b6-3dcc-4088-b7a6-ba7456aaafc7)
 
