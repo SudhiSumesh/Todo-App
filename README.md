@@ -4,7 +4,7 @@ This is a stylish and user-friendly todo app created using React (Vite). The app
 
 Live Demo : https://sudhisumesh.github.io/Todo-App/
 
-![todo](https://github.com/SumeshSudhi/TodoApp/assets/155970384/5a5b91b6-3dcc-4088-b7a6-ba7456aaafc7)
+
 
 ## Installation
 
@@ -17,6 +17,8 @@ npm run dev
 This will start the development server and open the app in your default browser.
 
 ## Usage
+
+![todo](https://github.com/SumeshSudhi/TodoApp/assets/155970384/5a5b91b6-3dcc-4088-b7a6-ba7456aaafc7)
 
 To use this todo app, add new todos by clicking the 'Add Todo' button. To delete a todo, click the 'Delete' button next to the todo. To edit a todo, click the 'Edit' button next to the todo.
 
